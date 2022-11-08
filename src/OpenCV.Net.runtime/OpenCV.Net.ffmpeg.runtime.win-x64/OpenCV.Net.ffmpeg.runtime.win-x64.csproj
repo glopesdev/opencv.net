@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>win x64 FFmpeg native runtime for OpenCV. This is an internal implementation package not meant for direct consumption.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="$(SolutionDir)opencv\build\x64\**\*ffmpeg*.dll" PackagePath="runtimes\win-x64\native"
+             TargetPath="%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

@@ -7,7 +7,7 @@
   <ItemGroup>
     <Content Include="$(SolutionDir)opencv\build\x86\**\*.dll" PackagePath="runtimes\win-x86\native"
              TargetPath="%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest"
-             Exclude="$(SolutionDir)opencv\build\x86\**\*d.dll"/>
+             Exclude="$(SolutionDir)opencv\build\x86\**\*d.dll;$(SolutionDir)opencv\build\x86\**\*ffmpeg*.dll" />
   </ItemGroup>
 
 </Project>

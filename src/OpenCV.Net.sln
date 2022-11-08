@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCV.Net.runtime.win-x64"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCV.Net.runtime.win-x86", "OpenCV.Net.runtime\OpenCV.Net.runtime.win-x86\OpenCV.Net.runtime.win-x86.csproj", "{87B705FD-B9EE-4E80-9197-7BCADD121926}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCV.Net.ffmpeg.runtime.win-x64", "OpenCV.Net.runtime\OpenCV.Net.ffmpeg.runtime.win-x64\OpenCV.Net.ffmpeg.runtime.win-x64.csproj", "{C70A3396-BD47-4328-B437-341D2D72E94A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCV.Net.ffmpeg.runtime.win-x86", "OpenCV.Net.runtime\OpenCV.Net.ffmpeg.runtime.win-x86\OpenCV.Net.ffmpeg.runtime.win-x86.csproj", "{47D978E2-6CFB-46C5-86D7-5BBF3E33C3E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{87B705FD-B9EE-4E80-9197-7BCADD121926}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87B705FD-B9EE-4E80-9197-7BCADD121926}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87B705FD-B9EE-4E80-9197-7BCADD121926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70A3396-BD47-4328-B437-341D2D72E94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70A3396-BD47-4328-B437-341D2D72E94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70A3396-BD47-4328-B437-341D2D72E94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70A3396-BD47-4328-B437-341D2D72E94A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D978E2-6CFB-46C5-86D7-5BBF3E33C3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D978E2-6CFB-46C5-86D7-5BBF3E33C3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D978E2-6CFB-46C5-86D7-5BBF3E33C3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D978E2-6CFB-46C5-86D7-5BBF3E33C3E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
