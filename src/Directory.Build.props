@@ -12,6 +12,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>icon.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
-    <Version>3.4.1</Version>
+    <VersionPrefix>3.4.1</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
   </PropertyGroup>
 </Project>
